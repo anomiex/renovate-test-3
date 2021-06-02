@@ -1,10 +1,10 @@
 lockfileVersion: 5.3
 
 specifiers:
-  chalk: 4.0.0
+  chalk: 4.1.1
 
 dependencies:
-  chalk: 4.0.0
+  chalk: 4.1.1
 
 packages:
 
@@ -15,8 +15,8 @@ packages:
       color-convert: 2.0.1
     dev: false
 
-  /chalk/4.0.0:
-    resolution: {integrity: sha512-N9oWFcegS0sFr9oh1oz2d7Npos6vNoWW9HvtCg5N1KRFpUhaAhvTv5Y58g880fZaEYSNm3qDz8SU1UrGvp+n7A==}
+  /chalk/4.1.1:
+    resolution: {integrity: sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==}
     engines: {node: '>=10'}
     dependencies:
       ansi-styles: 4.3.0
