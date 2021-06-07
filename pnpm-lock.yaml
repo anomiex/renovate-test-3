@@ -22,9 +22,9 @@ importers:
 
   subproject-starstar/a:
     specifiers:
-      is-thirteen: 1.0.0
+      is-thirteen: 2.0.0
     dependencies:
-      is-thirteen: 1.0.0
+      is-thirteen: 2.0.0
 
 packages:
 
@@ -72,8 +72,10 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /is-thirteen/1.0.0:
-    resolution: {integrity: sha1-+Pq3evc5cnGZJp296k67X29PzL4=}
+  /is-thirteen/2.0.0:
+    resolution: {integrity: sha1-otvQ9at+EKTQGG6aCyQmMiTT+bE=}
+    dependencies:
+      noop3: 13.8.1
     dev: false
 
   /ms/2.1.2:
@@ -82,6 +84,11 @@ packages:
 
   /noop/0.2.0:
     resolution: {integrity: sha1-7FSONr5/xkcM0WpS/RPNTwvDWkw=}
+    dev: false
+
+  /noop3/13.8.1:
+    resolution: {integrity: sha1-CuZBS21947bYUFXNKpIMGg1hrW4=}
+    engines: {node: '>=0.10.0'}
     dev: false
 
   /supports-color/7.2.0:
