@@ -1,2 +1,4 @@
 packages:
   - 'subproject'
+  - 'subproject-star/*'
+  - 'subproject-starstar/**'
