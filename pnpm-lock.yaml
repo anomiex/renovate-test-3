@@ -16,9 +16,9 @@ importers:
 
   subproject-star/a:
     specifiers:
-      noop: 0.2.0
+      noop: 1.0.1
     dependencies:
-      noop: 0.2.0
+      noop: 1.0.1
 
   subproject-starstar/a:
     specifiers:
@@ -80,8 +80,8 @@ packages:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: false
 
-  /noop/0.2.0:
-    resolution: {integrity: sha1-7FSONr5/xkcM0WpS/RPNTwvDWkw=}
+  /noop/1.0.1:
+    resolution: {integrity: sha512-Ie26MApU6CpCVRyp1GHFSQsY+zKe3uUXqQnu6bW9dYO/Cb1cpp34nvfi69WHpMvxLeG3Bhu9YV9ItP8z5z1HCQ==}
     dev: false
 
   /supports-color/7.2.0:
