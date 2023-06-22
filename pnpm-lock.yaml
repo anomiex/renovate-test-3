@@ -10,19 +10,19 @@ importers:
 
   projects/a:
     dependencies:
-      chalk:
-        specifier: ^5.0.0
-        version: 5.0.0
+      is-string:
+        specifier: ^1.0.0
+        version: 1.0.0
 
   projects/b:
     dependencies:
-      chalk:
-        specifier: 5.0.0
-        version: 5.0.0
+      is-string:
+        specifier: 1.0.0
+        version: 1.0.0
 
 packages:
 
-  /chalk@5.0.0:
-    resolution: {integrity: sha512-/duVOqst+luxCQRKEo4bNxinsOQtMP80ZYm7mMqzuh5PociNL0PvmHFvREJ9ueYL2TxlHjBcmLCdmocx9Vg+IQ==}
-    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+  /is-string@1.0.0:
+    resolution: {integrity: sha512-6SIfYVTmaaKLrmsqZy7kW7MLcGCbAJyS0i6jBWKq1iyTJoQDPT//Es3piZf0sjkmT1zuijDbUeXCLWOsXoKiSA==}
+    engines: {node: '>= 0.4'}
     dev: false
