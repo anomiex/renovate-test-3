@@ -1,9 +1,0 @@
-{
-    "extends": [ "config:base" ],
-    "dependencyDashboard": true,
-    "schedule": "* * 31 2 *",
-    "lockFileMaintenance": {
-        "enabled": true,
-        "schedule": "* * 31 2 *"
-    }
-}
